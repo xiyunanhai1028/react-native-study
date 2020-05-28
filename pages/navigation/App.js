@@ -1,0 +1,4 @@
+import { React } from 'react';
+import { createAppContainer } from 'react-navigation'
+import AppStack from './navigation'
+export default createAppContainer(AppStack)
